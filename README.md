@@ -87,9 +87,8 @@ Percentile caps and the employment median learned during training are stored in
 Run `python -m src.train` and paste the output here:
 
 | Model | Test ROC-AUC |
-|---|---|
-| Random forest | _fill in_ |
-| XGBoost | _fill in_ |
+| Random forest | 0.9396|
+| XGBoost |0.9538|
 
 ## Docker
 
@@ -118,6 +117,6 @@ pytest -q
 - Saved models depend on library versions. Retrain, or pin the same `scikit-learn` and `xgboost` versions, when deploying.
 - This is a portfolio project, not a production credit-decision system.
 
-## Author
+ Author
 
-**[Your Name]** | [LinkedIn](#) | [Email](#)
+Bamidele Mustapha Olanrewaju | www.linkedin.com/in/olanrewaju11 | olanrepaul321@gmail.com
