@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Data and large artefacts
+data/
+*.pkl
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
